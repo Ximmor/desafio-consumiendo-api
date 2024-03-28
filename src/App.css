@@ -1,0 +1,71 @@
+
+body {
+  background-image: url('https://img.freepik.com/fotos-premium/mujer-sienta-acantilado-mirando-cascada_900462-80.jpg?size=626&ext=jpg');
+    background-color: #f7c203;
+    color: #f70707;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  header {
+    padding: 1.5rem 1rem;
+    background-color: hsla(9, 96%, 49%, 0.853);
+  }
+  
+  header i {
+    margin-right: 1rem;
+  }
+  
+  footer {
+    padding: 1.5rem 1rem;
+    background-color: hsl(47, 89%, 50%);
+  }
+
+  .footer-icon a {
+    color: #eee;
+    font-size: 1.5rem;
+    margin: 0 0.3rem;
+  }
+  
+  .footer-icon a:hover {
+    color: #4799eb;
+  }
+  
+  .card {
+    background-color: #281c11;
+    color: #f2ddddb6;
+  }
+  
+  .card-title {
+    color: #ef3939;
+  }
+  .card-text {
+    color: #fff;
+  }
+  
+  .card-footer {
+    background-color: #da9605;
+    color: #da9b08;
+  }
+  
+  .card-footer .text-body-secondary {
+    color: hsl(53, 94%, 51%);
+  }
+  
+  .card-footer .badge {
+    background-color: #ff00007c;
+    color: #0f0101;
+  }
+  
+  .card-footer i {
+    color: #f2ef94;
+  }
